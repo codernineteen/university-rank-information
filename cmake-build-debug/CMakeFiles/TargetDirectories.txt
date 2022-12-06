@@ -1,0 +1,3 @@
+/Users/wjsdP/CLionProjects/UniversityRank/cmake-build-debug/CMakeFiles/PlayerManager.dir
+/Users/wjsdP/CLionProjects/UniversityRank/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wjsdP/CLionProjects/UniversityRank/cmake-build-debug/CMakeFiles/rebuild_cache.dir
