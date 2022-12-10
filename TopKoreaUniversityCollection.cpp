@@ -36,3 +36,12 @@ void TopKoreaUniversityCollection::PrintCollection() {
         std::cout << "위치 : " << univ.GetUnivRegion() << ", " << univ.GetUnivCountry() << "\n";
     }
 }
+
+void TopKoreaUniversityCollection::PrintNumberOfElements() {
+    std::cout << "세계 랭킹에 속하는 한국의 대학교 수는 : " << koreaCollection.size() << std::endl;
+}
+
+void TopKoreaUniversityCollection::SortUniversitiesByRank() {
+    std::sort(koreaCollection.begin(), koreaCollection.end());
+    std::cout << "정렬을 완료했습니다." << std::endl;
+}

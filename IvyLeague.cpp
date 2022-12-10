@@ -62,3 +62,7 @@ void IvyLeague::SortUniversitiesByRank() {
 }
 
 
+void IvyLeague::PrintNumberOfElements() {
+    std::cout << "Number of Ivy League universities which are in the world ranking list : " << ivyLeagueCollection.size() << std::endl;
+}
+

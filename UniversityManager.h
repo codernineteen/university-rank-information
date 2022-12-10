@@ -16,13 +16,15 @@ class UniversityManager {
 
 public:
     UniversityManager();
+    void run();
 
+private:
     void Greeting();
     int ShowMenu();
     int ShowWholeUniversityMenu();
     int ShowIvyLeagueMenu();
     int ShowKoreaMenu();
-    void run();
+
 };
 
 

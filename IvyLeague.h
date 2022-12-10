@@ -16,6 +16,8 @@ public:
     std::vector<University> GetCollection() override;
     void PrintCollection() override;
     void SortUniversitiesByRank() override;
+public:
+    void PrintNumberOfElements();
 };
 
 
